@@ -50,6 +50,10 @@ ISIS system is implemented in this assignment.
 
 #### ISIS algorithm for total ordering:
 
+![alt text][logo]
+
+[logo]: https://github.com/anuragde/Group-Messenger-with-Total-and-FIFO-Ordering-Guarantees/tree/master/GroupMessenger2/images/ISIS_algorithm.png "ISIS algorithm"
+
 * Sender multicasts message to everyone.
 * Reply with proposed priority(sequence no.)
   - Larger than all observed agreed priorities
