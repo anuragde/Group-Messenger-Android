@@ -50,7 +50,7 @@ ISIS system is implemented in this assignment.
 
 #### ISIS algorithm for total ordering:
 
-![alt text][logo]
+![ISIS algorithm image][logo]
 
 [logo]: https://github.com/anuragde/Group-Messenger-with-Total-and-FIFO-Ordering-Guarantees/tree/master/GroupMessenger2/images/ISIS_algorithm.png "ISIS algorithm"
 
