@@ -84,9 +84,9 @@ order.
   - P3: m6, m7, m8
 
 Total order:
-P1: m7, m1, m2, m4, m5, m3, m6, m0, m8
-P2: m7, m1, m2, m4, m5, m3, m6, m0, m8
-P3: m7, m1, m2, m4, m5, m3, m6, m0, m8
+- P1: m7, m1, m2, m4, m5, m3, m6, m0, m8
+- P2: m7, m1, m2, m4, m5, m3, m6, m0, m8
+- P3: m7, m1, m2, m4, m5, m3, m6, m0, m8
 
 
 
