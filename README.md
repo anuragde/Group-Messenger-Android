@@ -20,8 +20,6 @@ ISIS system is implemented in this assignment.
 
 #### ISIS algorithm for total ordering:
 
-![](https://github.com/anuragde/Group-Messenger-with-Total-and-FIFO-Ordering-Guarantees/blob/master/GroupMessenger2/images/ISIS_algorithm.png)
-
 * Sender multicasts message to everyone.
 * Nodes reply with proposed priority(sequence no.) by appending process id.
   - Larger than all observed agreed priorities
@@ -37,6 +35,8 @@ with agreed priority
   - Deliver any deliverable messages at the front of priority queue 
   
 Each message sent to a node is used to detect node failure upon socket read timeout.
+
+![](https://github.com/anuragde/Group-Messenger-with-Total-and-FIFO-Ordering-Guarantees/blob/master/GroupMessenger2/images/ISIS_algorithm.png)
   
 ##### Background theory:
 
