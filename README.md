@@ -6,7 +6,7 @@ PA Specification : https://docs.google.com/document/d/1xgXwZ6GYA152WT3K0B1MPP7F0
 Testing scripts and instructions are provided in the specification document.
 
 
-#### Algorithm to implement Total and FIFO ordering of messages under a crash-stop failure of at most one-node:
+#### Protocol to implement Total and FIFO ordering of messages under a crash-stop failure of at most one-node:
 
 Totally Ordered Multicast can be achieved in two ways:
 * Using a sequencer
@@ -18,7 +18,7 @@ distributed to each sender.
 
 ISIS system is implemented in this assignment.
 
-#### ISIS algorithm for total ordering:
+#### ISIS protocol for total ordering:
 
 * Sender multicasts message to everyone.
 * Nodes reply with proposed priority(sequence no.) by appending process id.
