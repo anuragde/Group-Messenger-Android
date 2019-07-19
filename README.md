@@ -18,7 +18,7 @@ distributed to each sender.
 
 ISIS system is implemented in this assignment.
 
-#### ISIS protocol for total ordering:
+#### ISIS algorithm for total ordering:
 
 * Sender multicasts message to everyone.
 * Nodes reply with proposed priority(sequence no.) by appending process id.
